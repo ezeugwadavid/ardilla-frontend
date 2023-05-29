@@ -43,7 +43,9 @@ const Products = (props) => {
 
   return (
     <ProductsContainer>
+      <div className="headline">
       <div className="header">Products</div>
+      </div>
       <div className="product-content-container">
         <div className="left">
           <div className="product-type">Save</div>
@@ -63,8 +65,10 @@ const Products = (props) => {
           <img src={PhoneRight} alt="" />
         </div>
       </div>
-
+      <div className="progress-bottom">
       <img className="progress" src={Progress} alt="" />
+      </div>
+
     </ProductsContainer>
   );
 };

@@ -7,6 +7,13 @@ export const ProductsContainer = styled.div`
   position: relative;
   bottom: 30px;
 
+  .headline{
+    display: flex;
+    justify-content: start;
+    max-width: 1200px;
+    margin: 0px auto;
+  }
+
   .header {
     font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
@@ -16,12 +23,15 @@ export const ProductsContainer = styled.div`
     color: #3d0072;
     text-align: left;
     padding-top: 120px;
-    padding-left: 7%;
   }
   .product-content-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: end;
+  }
+
+  .left{
+    margin-right: 5%;
   }
 
   .product-type {
@@ -71,11 +81,18 @@ export const ProductsContainer = styled.div`
   }
 
   .progress {
-    padding-left: 7%;
-    width: 80%;
+    width: 95%;
     display: flex;
     justify-content: center;
     margin: 79px 0px;
+
+  }
+
+  .progress-bottom{
+    display: flex;
+    justify-content: start;
+    max-width: 1200px;
+    margin: 0px auto;
   }
 
   @media screen and (max-width: 800px) {

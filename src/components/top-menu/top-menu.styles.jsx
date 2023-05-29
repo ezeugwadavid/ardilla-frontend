@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const TopMenuContainer = styled.div`
+  position: fixed;
+  width: 100%;
+  z-index: 1;
   height: 100px;
   background: #240053;
   box-shadow: 0px 4px 10px rgba(136, 7, 247, 0.07);

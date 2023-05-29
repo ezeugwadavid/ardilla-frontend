@@ -9,7 +9,7 @@ export const HeroContainer = styled.div`
 
   .hero-text {
     font-family: "Cabinet Grotesk", sans-serif;
-    padding-top: 55px;
+    padding-top: 100px;
     font-style: normal;
     font-weight: 800;
     font-size: 95px;
