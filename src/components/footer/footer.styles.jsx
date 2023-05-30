@@ -14,7 +14,6 @@ export const FooterContainer = styled.div`
     bottom: 170px;
     background-image: url(${Background});
     border-radius: 16.2102px;
-
     padding: 10%;
   }
 
@@ -249,5 +248,148 @@ export const FooterContainer = styled.div`
   }
 
   @media screen and (max-width: 800px) {
+    padding: 10% 2%;
+    .floating-rectangle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+    height: 100%;
+    width: 80%;
+    position: relative;
+    bottom: 170px;
+    background-image: url(${Background});
+    border-radius: 16.2102px;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 0%;
   }
+
+  .rect-text {
+    font-family: "Cabinet Grotesk", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36.4729px;
+    line-height: 45px;
+    color: #ffffff;
+    width: 95%;
+    text-align: center;
+  }
+
+  .rect-btn {
+    font-family: "Cabinet Grotesk", sans-serif;
+    background: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 57px;
+    margin: 24.52px auto;
+    cursor: pointer;
+  }
+
+  .half-mobile{
+    width: 90%;
+    height: 90%;
+    margin-top: 30px;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .bottom-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    font-family: "Cabinet Grotesk", sans-serif;
+  }
+
+  .bottom-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 30px 0px;
+  }
+
+  .cmpy-header {
+    margin-bottom: 16px;
+    margin-top: 20px;
+  }
+
+  .transp-header {
+    margin-bottom: 16px;
+    margin-top: 20px;
+  }
+
+  .dev-header {
+    margin-bottom: 16px;
+    margin-top: 20px;
+  }
+  .address-header {
+    margin-bottom: 16px;
+    margin-top: 20px;
+  }
+
+  }
+
+  @media screen and (min-width: 801px) and (max-width: 1109px) {
+
+    .floating-rectangle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+    height: 100%;
+    width: 80%;
+    position: relative;
+    bottom: 170px;
+    background-image: url(${Background});
+    border-radius: 16.2102px;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 0%;
+  }
+
+  .rect-text {
+    font-family: "Cabinet Grotesk", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36.4729px;
+    line-height: 45px;
+    color: #ffffff;
+    width: 95%;
+    text-align: center;
+  }
+
+  .rect-btn {
+    font-family: "Cabinet Grotesk", sans-serif;
+    background: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 57px;
+    margin: 24.52px auto;
+    cursor: pointer;
+  }
+
+  .half-mobile{
+    width: 90%;
+    height: 90%;
+    margin-top: 30px;
+  }
+
+    
+  }
+
+
 `;

@@ -47,5 +47,52 @@ export const HeroContainer = styled.div`
   }
 
   @media screen and (max-width: 800px) {
+    padding-top: 20%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 37%;
+    .phone {
+      width: 332px;
+      height: 160px;
+    }
+
+    .desc {
+      width: 70%;
+    }
   }
+
+  @media screen and (max-width: 330px) {
+    .phone {
+      width: 300px;
+      height: 100px;
+    }
+
+    
+  .hero-text {
+    font-size: 80px;
+  }
+  };
+
+  @media screen and (min-width: 357px) and (max-width: 800px)  {
+    padding-bottom: 2%;
+    padding-top: 10%;
+  };
+  @media screen and (min-width: 500px) and (max-width: 800px)  {
+    padding-bottom: 0%;
+    padding-top: 10%;
+
+    .phone {
+      width: 550px;
+      height: 360px;
+    }
+  };
+
+  @media screen and (min-width: 801px) and (max-width: 1109px)  {
+    .small-mobile {
+      width: 87%;
+      height: 90%;
+    }
+  }
+
+
 `;

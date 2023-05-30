@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="rect-btn">Download for free</div>
         </div>
         <div className="right-side">
-          <img src={HalfMobile} alt="" />
+          <img className="half-mobile" src={HalfMobile} alt="" />
         </div>
       </div>
 

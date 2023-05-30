@@ -62,7 +62,7 @@ const Products = (props) => {
           ))}
         </div>
         <div className="right">
-          <img src={PhoneRight} alt="" />
+          <img className="small-mobile" src={PhoneRight} alt="" />
         </div>
       </div>
       <div className="progress-bottom">

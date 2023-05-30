@@ -4,6 +4,7 @@ import MenuIcon from "../../assets/ardilla-logo.svg";
 import ArrDown from "../../assets/arr-down.svg";
 import Ellipse from "../../assets/ellipse.svg";
 import ArrowDownIcon from "../../assets/arrow-down.svg";
+import Button from "../button/button.component";
 
 const TopMenu = () => {
   const [highlightItem1, setHighlightItem1] = useState(false);
@@ -56,7 +57,7 @@ const TopMenu = () => {
           onClick={() => setHighlight2()}
         >
           <div className="business-text">Business</div>
-          <div className="beta">Beta</div>
+          <div className={highlightItem2 ? "highlight-item-beta" : "beta"}>Beta</div>
         </div>
         <div
           className={highlightItem3 ? "highlight-item" : "company"}
@@ -68,7 +69,7 @@ const TopMenu = () => {
           </div>
         </div>
         <div
-          className={highlightItem4 ? "highlight-item" : "learn"}
+          className={highlightItem4 ? "highlight-learn" : "learn"}
           onClick={() => setHighlight4()}
         >
           Learn
@@ -76,7 +77,15 @@ const TopMenu = () => {
       </div>
       <div className="right-menu">
         <div className="sign-in">Sign In</div>
-        <div className="create">Create Account</div>
+        <Button
+          className="interest-btn"
+          bgColor="#8807F7"
+          color="#ffffff"
+          bgHoverColor="#6005AE"
+          hoverColor="#ffffff"
+        >
+          Create Account
+        </Button>
         <div className="right-icons">
           <img src={Ellipse} alt="" />
           <img src={ArrowDownIcon} alt="" />

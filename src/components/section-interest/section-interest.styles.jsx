@@ -47,5 +47,76 @@ export const SectionInterestContainer = styled.div`
   }
 
   @media screen and (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 30% 2%;
+
+    .right-interest {
+      width: 90%;
+      margin-top: 20px;
+    }
+
+    .left-interest {
+      margin-right: 1%;
+      text-align: left;
+    }
+
+    .interest-hero1 {
+      font-family: "Cabinet Grotesk", sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 50px;
+      color: #3d0072;
+    }
+
+    .interest-hero2 {
+      font-family: "Cabinet Grotesk", sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 50px;
+      color: #e8356d;
+    }
+
+    .interest-btn {
+      width: 30%;
+      margin-top: 32px;
+    }
   }
+
+  @media screen and (max-width: 330px) {
+    .interest-hero1 {
+      font-size: 30px;
+    }
+
+    .interest-hero2 {
+      font-size: 30px;
+    }
+  }
+
+  @media screen and (min-width: 801px) and (max-width: 1109px)  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10% 2%;
+
+    .right-interest {
+      width: 90%;
+      margin-top: 20px;
+    }
+
+    .left-interest {
+      margin-right: 1%;
+      text-align: left;
+    }
+  }
+
+
+
+
+
 `;

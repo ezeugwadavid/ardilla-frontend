@@ -13,6 +13,8 @@ export const TopMenuContainer = styled.div`
   .center-menu {
     font-family: "Cabinet Grotesk", sans-serif;
     display: flex;
+    justify-content: center;
+    align-items: center;
     color: #ffffff;
     cursor: pointer;
   }
@@ -42,10 +44,34 @@ export const TopMenuContainer = styled.div`
     margin-right: 10%;
   }
 
+  .beta{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 3.08696px;
+gap: 6.09px;
+border: 1px solid #FFFFFF;
+border-radius: 3px;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+width: 32.87px;
+height: 14px;
+  }
+
   .highlight-item {
     display: flex;
     margin-right: 20%;
     color: #8807f7;
+  }
+
+  .highlight-learn {
+    color: #8807f7;
+  }
+  .highlight-item-beta {
+    border: 1px solid #8807f7;
   }
 
   .right-menu {
@@ -63,25 +89,7 @@ export const TopMenuContainer = styled.div`
     font-size: 14px;
     line-height: 12px;
   }
-
-  .create {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8.71407px;
-    gap: 8.71px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    width: 175.6px;
-    height: 47.89px;
-    background: #8807f7;
-    border-radius: 79.8182px;
-    margin-right: 20px;
-  }
-
+  
   .right-icons {
     display: flex;
   }

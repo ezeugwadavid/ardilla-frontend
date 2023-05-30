@@ -69,5 +69,63 @@ export const InvestmentContainer = styled.div`
   }
 
   @media screen and (max-width: 800px) {
+    height: 100%;
+    background: #fffdf2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30% 2%;
+
+    .interest-content {
+      width: 100%;
+    }
+
+    .top-text {
+      display: flex;
+      justify-content: start;
+      flex-direction: column;
+    }
+
+    .interest-heading {
+      font-family: "Cabinet Grotesk", sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 50px;
+      line-height: 50px;
+      text-align: left;
+    }
+
+    .arrow {
+      display: none;
+    }
+
+    .investment-btn {
+      width: 50%;
+    }
   }
+
+  @media screen and (max-width: 330px) {
+    .interest-heading {
+      font-size: 30px;
+    }
+
+    .investment-btn {
+      width: 70%;
+    }
+  };
+
+  @media screen and (min-width: 801px) and (max-width: 1109px)  {
+    .arrow {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 2000px) {
+    .interest-content {
+    width: 1250px;
+  }
+  }
+
+
 `;

@@ -69,6 +69,59 @@ export const PartnersContainer = styled.div`
     justify-content: center;
     margin-top: 25px;
   }
+
   @media screen and (max-width: 800px) {
+    height: 100%;
+    padding: 30% 2%;
+
+    .partner-content {
+      width: 98%;
+    }
+
+    .partners {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 81.59px;
+    }
+
+    .part-logo {
+      margin-right: 10px;
+      width: 70px;
+      height: 70px;
+    }
+
+    .vr {
+      margin: auto 10px;
+      height: 30px;
+      width: 0px;
+      transform: rotate(0deg);
+    }
+
+    .screen-shot-box {
+      padding-left: 8%;
+      padding-right: 8%;
+      padding-top: 8%;
+      background: #f3f4f6;
+      border-radius: 20px;
+      height: 100%;
+      width: 75%;
+      margin: 0px auto;
+      box-shadow: 10px 10px 10px 10px #eef0f2;
+    }
   }
+
+  @media screen and (max-width: 330px) {
+    .part-logo {
+      width: 50px;
+      height: 50px;
+    }
+  };
+
+  @media screen and (min-width: 801px) and (max-width: 1109px)  {
+    .screen-shot-box {
+      width: 75%;
+    }
+  }
+
+
 `;

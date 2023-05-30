@@ -55,8 +55,6 @@ export const AccessMoreContainer = styled.div`
   .inner-box {
     padding: 5%;
     margin-top: 112.67px;
-    /* width: 30%;
-height: 30%; */
   }
 
   .inner-box:hover {
@@ -103,5 +101,69 @@ height: 30%; */
   }
 
   @media screen and (max-width: 800px) {
+    height: 100%;
+    padding: 30% 2%;
+
+    .access-container {
+      width: 100%;
+    }
+
+    .access-header {
+      font-family: "Cabinet Grotesk", sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 50px;
+      line-height: 70px;
+      color: #ffffff;
+      text-align: left;
+    }
+
+    .access-phrase {
+      width: 80%;
+    }
+
+    .access-btn {
+      margin-top: 31px;
+      width: 50%;
+    }
+
+    .box {
+      display: grid;
+      grid-template-columns: 90%;
+    }
+
+    .inner-box {
+      padding: 8%;
+      margin-top: 112.67px;
+    }
   }
+
+  @media screen and (max-width: 330px) {
+    .access-header {
+      font-size: 40px;
+    }
+    .access-btn {
+      margin-top: 31px;
+      width: 70%;
+    }
+  }
+
+  @media screen and (min-width: 801px) and (max-width: 1109px) {
+    height: 100%;
+    padding: 30% 2%;
+
+    .access-container {
+      width: 100%;
+    }
+
+    .access-phrase {
+      width: 90%;
+    }
+
+    .access-btn {
+      margin-top: 31px;
+      width: 40%;
+    }
+  }
+
 `;

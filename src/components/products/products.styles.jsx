@@ -7,7 +7,7 @@ export const ProductsContainer = styled.div`
   position: relative;
   bottom: 30px;
 
-  .headline{
+  .headline {
     display: flex;
     justify-content: start;
     max-width: 1200px;
@@ -30,7 +30,7 @@ export const ProductsContainer = styled.div`
     align-items: end;
   }
 
-  .left{
+  .left {
     margin-right: 5%;
   }
 
@@ -85,10 +85,9 @@ export const ProductsContainer = styled.div`
     display: flex;
     justify-content: center;
     margin: 79px 0px;
-
   }
 
-  .progress-bottom{
+  .progress-bottom {
     display: flex;
     justify-content: start;
     max-width: 1200px;
@@ -96,5 +95,74 @@ export const ProductsContainer = styled.div`
   }
 
   @media screen and (max-width: 800px) {
+    height: 100%;
+    position: relative;
+    bottom: 25px;
+    padding: 20% 3%;
+
+    .product-content-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .left {
+      margin-right: 0%;
+    }
+
+    .small-mobile {
+      margin-top: 30px;
+      margin-right: 20px;
+      width: 300px;
+      height: 300px;
+      display: flex;
+      justify-content: start;
+    }
+
+    .progress {
+      width: 92%;
+      display: flex;
+      justify-content: center;
+      margin: 30px 0px;
+    }
+
+    .product-text {
+      font-family: "Cabinet Grotesk", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 30px;
+      color: #9ca3af;
+      margin-bottom: 63px;
+      text-align: left;
+    }
   }
+
+  @media screen and (max-width: 330px) {
+    .header {
+    font-size: 50px;
+  }
+  };
+
+  @media screen and (min-width: 450px) and (max-width: 800px)  {
+    .small-mobile {
+      width: 97%;
+      height: 90%;
+    }
+  };
+
+  @media screen and (min-width: 801px) and (max-width: 1109px)  {
+    .product-text {
+      font-size: 15px;
+      line-height: 30px;
+      margin-bottom: 63px;
+      text-align: left;
+      width: 95%;
+    }
+  }
+
+
+
+
 `;
