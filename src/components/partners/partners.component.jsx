@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Zikoko from "../../assets/zikoko.svg";
 import TechCrunch from "../../assets/TechCrunch.svg";
 import Guardian from "../../assets/guardian.svg";

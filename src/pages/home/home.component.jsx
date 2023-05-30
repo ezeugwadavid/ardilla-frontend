@@ -8,6 +8,8 @@ import Investment from "../../components/investment/investment.component";
 import AccessMore from "../../components/access-more/access-more.component";
 import Testimonials from "../../components/testimonials/testimonials.component";
 import Partners from "../../components/partners/partners.component";
+import Traction from "../../components/traction/traction.component";
+import Footer from "../../components/footer/footer.component";
 
 const Home = () => {
   
@@ -21,6 +23,8 @@ const Home = () => {
         <AccessMore />
         <Testimonials />
         <Partners />
+        <Traction />
+        <Footer />
     </HomeContainer>
   );
 };
