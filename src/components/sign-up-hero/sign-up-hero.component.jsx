@@ -1,15 +1,12 @@
 import React from "react";
 import { SignUpHeroContainer } from "./sign-up-hero.styles";
-import MenuRightIcon from "../../assets/menu-left-icon.svg";
+//import MenuRightIcon from "../../assets/menu-left-icon.svg";
 import ArdillaIcon from "../../assets/ardilla-logo.svg";
 import RightMobile from "../../assets/right-mobile.svg";
 import LineBended from "../../assets/line-bended.svg";
 import Plane from "../../assets/plane.svg";
 
 const SignUpHero = () => {
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
   
   return (
     <SignUpHeroContainer>

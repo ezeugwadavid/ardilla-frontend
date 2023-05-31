@@ -1,7 +1,6 @@
 import React from "react";
 import { SignUpFooterContainer } from "./sign-up-footer.styles";
 import RightArrow from "../../assets/scroll-right.svg";
-import AccessCard from "../../assets/access-more-card.svg";
 import InvestmentCard from "../../assets/investment-card.svg";
 import MoreSavings from "../../assets/more-savings.svg";
 import WealthBuilding from "../../assets/wealth-building.svg";
@@ -60,7 +59,6 @@ const SignUpFooter = () => {
             <img className="right-arr"  src={RightArrow} alt="" />
             <div className="footer-cards">
             <Swiper slidesPerView={4} spaceBetween={0}>
-                {/* <img className="access cards"  src={AccessCard} alt="" /> */}
                 {slideCards.map((card) => {
               return (
                 <SwiperSlide index={card.id}>

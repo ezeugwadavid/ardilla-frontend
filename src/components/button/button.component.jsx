@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import { ButtonContainer } from "./button.styles";
-import MenuIcon from "../../assets/ardilla-logo.svg";
 import PropTypes from 'prop-types';
 
 

@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import BackDepth from "../../assets/background-depth.svg";
-import Back from "../../assets/back.svg";
 
 export const SignUpHeroContainer = styled.div`
   font-family: "Clash Display", sans-serif;
