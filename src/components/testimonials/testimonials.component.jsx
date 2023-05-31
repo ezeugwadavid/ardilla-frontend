@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { TestimonialsContainer } from "./testimonials.styles";
 import BoyImage from "../../assets/boy-photo.svg";
 import ManImage from "../../assets/man-photo.svg";
@@ -49,7 +49,7 @@ const Testimonials = () => {
           <Swiper slidesPerView={3} spaceBetween={0}>
             {images.map((image) => {
               return (
-                <SwiperSlide>
+                <SwiperSlide index={image.id}>
                   <img
                     index={image.id}
                     className="image"

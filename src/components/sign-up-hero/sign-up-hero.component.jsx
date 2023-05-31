@@ -7,6 +7,9 @@ import LineBended from "../../assets/line-bended.svg";
 import Plane from "../../assets/plane.svg";
 
 const SignUpHero = () => {
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
   
   return (
     <SignUpHeroContainer>

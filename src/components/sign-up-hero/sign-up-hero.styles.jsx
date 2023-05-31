@@ -5,6 +5,14 @@ import Back from "../../assets/back.svg";
 export const SignUpHeroContainer = styled.div`
   font-family: "Clash Display", sans-serif;
   background: #8807f7;
+
+  .modal-content{
+    color: #ffffff;
+    font-size: 100px;
+    width: 500px;
+    height: 500px;
+    background: #ffffff;
+  }
  
   .top {
     display: flex;
@@ -12,7 +20,6 @@ export const SignUpHeroContainer = styled.div`
     align-items: center;
     color: #ffffff;
     background-image: url(${BackDepth});
-    //height: 60px;
   }
 
   .right-sign {
@@ -72,8 +79,9 @@ export const SignUpHeroContainer = styled.div`
     width: 250px;
     height: 500px;
     position: absolute;
-    left: 85%;
+    right: -0%;
     top: 400px;
+    z-index: 1;
   }
 
   .input {
@@ -131,14 +139,4 @@ export const SignUpHeroContainer = styled.div`
 
   @media screen and (max-width: 800px) {
   }
-
-  @media screen and (min-width: 1900px)  {
-    .right-mobile {
-    width: 250px;
-    height: 500px;
-    position: absolute;
-    left: 95%;
-    top: 400px;
-  }
-  };
 `;
