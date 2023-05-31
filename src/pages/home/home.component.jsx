@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { HomeContainer } from "./home.styles";
 import TopMenu from "../../components/top-menu/top-menu.component";
 import Hero from "../../components/hero/hero.component";
