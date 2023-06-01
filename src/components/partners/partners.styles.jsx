@@ -41,7 +41,6 @@ export const PartnersContainer = styled.div`
   }
 
   .screen-shot-desc {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 35px;
@@ -51,7 +50,6 @@ export const PartnersContainer = styled.div`
   }
 
   .screen-text {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;

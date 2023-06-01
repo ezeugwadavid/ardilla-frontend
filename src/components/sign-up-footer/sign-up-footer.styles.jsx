@@ -4,7 +4,6 @@ import CuvredBackground from "../../assets/curved-background.svg";
 export const SignUpFooterContainer = styled.div`
   background: #ffffff;
   border-radius: 30px 20px 0px 0px;
-  font-family: "Clash Display", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;

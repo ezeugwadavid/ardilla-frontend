@@ -50,7 +50,6 @@ export const TopMenuMobileContainer = styled.div`
       font-weight: 500;
       font-size: 20px;
       line-height: 17px;
-      font-family: "Cabinet Grotesk", sans-serif;
       transition: 1s left;
     }
 

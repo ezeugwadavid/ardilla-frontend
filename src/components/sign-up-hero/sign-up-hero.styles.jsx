@@ -2,7 +2,6 @@ import styled from "styled-components";
 import BackDepth from "../../assets/background-depth.svg";
 
 export const SignUpHeroContainer = styled.div`
-  font-family: "Clash Display", sans-serif;
   background: #8807f7;
 
   /* The Modal (background) */
@@ -31,12 +30,6 @@ export const SignUpHeroContainer = styled.div`
     background-color: rgba(0, 0, 0, 0.4);
   }
 
-  .modal-cover {
-    /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  }
-
   /* Modal Content/Box */
   .modal-content {
     background: #ffffff;
@@ -57,7 +50,6 @@ export const SignUpHeroContainer = styled.div`
   .center-icon {
     display: flex;
     justify-content: center;
-    /* margin: 5% auto; */
     margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -112,6 +104,12 @@ export const SignUpHeroContainer = styled.div`
     align-items: center;
     color: #ffffff;
     background-image: url(${BackDepth});
+  }
+
+  .dot {
+    position: relative;
+    bottom: 3px;
+    right: 2px;
   }
 
   .right-sign {
@@ -248,24 +246,24 @@ export const SignUpHeroContainer = styled.div`
     }
 
     .input-btn {
-    width: 60%;
-    padding: 10px;
-    height: 40px;
-    background: #8807f7;
-    border-radius: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    color: #ffffff;
-    position: relative;
-    right: 200px;
-    top: 3px;
-  }
+      width: 60%;
+      padding: 10px;
+      height: 40px;
+      background: #8807f7;
+      border-radius: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      color: #ffffff;
+      position: relative;
+      right: 200px;
+      top: 3px;
+    }
 
     .hero-content {
-    margin-bottom: 20px;
-  }
+      margin-bottom: 20px;
+    }
 
     .right-sign-icon {
       display: block;
@@ -277,7 +275,6 @@ export const SignUpHeroContainer = styled.div`
       position: relative;
       top: 20px;
       left: 2%;
-      
     }
 
     .input {

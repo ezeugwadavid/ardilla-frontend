@@ -15,7 +15,6 @@ export const ProductsContainer = styled.div`
   }
 
   .header {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 80px;
@@ -35,7 +34,6 @@ export const ProductsContainer = styled.div`
   }
 
   .product-type {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -46,7 +44,6 @@ export const ProductsContainer = styled.div`
   }
 
   .product-phrase {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -56,7 +53,6 @@ export const ProductsContainer = styled.div`
   }
 
   .product-text {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
@@ -71,7 +67,6 @@ export const ProductsContainer = styled.div`
   }
 
   .points-text {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -141,7 +136,7 @@ export const ProductsContainer = styled.div`
     }
 
     .product-text {
-      font-family: "Cabinet Grotesk", sans-serif;
+
       font-style: normal;
       font-weight: 700;
       font-size: 15px;

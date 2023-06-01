@@ -11,7 +11,6 @@ export const TopMenuDesktopContainer = styled.div`
   justify-content: space-around;
   align-items: center;
   .center-menu {
-    font-family: "Cabinet Grotesk", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +74,6 @@ export const TopMenuDesktopContainer = styled.div`
   }
 
   .right-menu {
-    font-family: "Cabinet Grotesk", sans-serif;
     display: flex;
     align-items: center;
     color: #ffffff;

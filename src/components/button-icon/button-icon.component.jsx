@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { ButtonIconContainer } from "./button-icon.styles";
 import FlyIcon from "../../assets/fly-icon.svg";
 import FlyIconWhite from "../../assets/fly-icon-white.svg";

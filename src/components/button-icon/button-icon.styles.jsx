@@ -11,7 +11,6 @@ export const ButtonIconContainer = styled.div`
   padding: 14px 20px;
   gap: 16px;
   color: ${({ color }) => (color ? color : "#8807f7")};
-  font-family: "Cabinet Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

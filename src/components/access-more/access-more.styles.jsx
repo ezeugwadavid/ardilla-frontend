@@ -12,7 +12,6 @@ export const AccessMoreContainer = styled.div`
   }
 
   .access-header {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 80px;
@@ -22,7 +21,6 @@ export const AccessMoreContainer = styled.div`
   }
 
   .access-phrase {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -69,7 +67,6 @@ export const AccessMoreContainer = styled.div`
   }
 
   .box-topic {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -80,7 +77,6 @@ export const AccessMoreContainer = styled.div`
 
   .box-text {
     margin-top: 24px;
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -90,7 +86,6 @@ export const AccessMoreContainer = styled.div`
   }
 
   .bottom-link {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -109,7 +104,7 @@ export const AccessMoreContainer = styled.div`
     }
 
     .access-header {
-      font-family: "Cabinet Grotesk", sans-serif;
+
       font-style: normal;
       font-weight: 800;
       font-size: 50px;

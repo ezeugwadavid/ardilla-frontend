@@ -18,7 +18,6 @@ export const FooterContainer = styled.div`
   }
 
   .rect-text {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36.4729px;
@@ -29,7 +28,6 @@ export const FooterContainer = styled.div`
   }
 
   .rect-btn {
-    font-family: "Cabinet Grotesk", sans-serif;
     background: #ffffff;
     border-radius: 8px;
     display: flex;
@@ -57,7 +55,6 @@ export const FooterContainer = styled.div`
 
   .footer-prodt {
     text-align: left;
-    font-family: "Cabinet Grotesk", sans-serif;
   }
 
   .prod-header {
@@ -101,7 +98,6 @@ export const FooterContainer = styled.div`
 
   .footer-cmpy {
     text-align: left;
-    font-family: "Cabinet Grotesk", sans-serif;
   }
 
   .cmpy-header {
@@ -126,7 +122,6 @@ export const FooterContainer = styled.div`
 
   .footer-transp {
     text-align: left;
-    font-family: "Cabinet Grotesk", sans-serif;
   }
 
   .transp-header {
@@ -151,7 +146,6 @@ export const FooterContainer = styled.div`
 
   .footer-dev {
     text-align: left;
-    font-family: "Cabinet Grotesk", sans-serif;
   }
 
   .dev-header {
@@ -173,7 +167,6 @@ export const FooterContainer = styled.div`
 
   .footer-address {
     text-align: left;
-    font-family: "Cabinet Grotesk", sans-serif;
   }
 
   .address-header {
@@ -217,7 +210,6 @@ export const FooterContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     text-align: left;
-    font-family: "Cabinet Grotesk", sans-serif;
   }
 
   .bottom-text1 {
@@ -267,7 +259,6 @@ export const FooterContainer = styled.div`
   }
 
   .rect-text {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36.4729px;
@@ -278,7 +269,6 @@ export const FooterContainer = styled.div`
   }
 
   .rect-btn {
-    font-family: "Cabinet Grotesk", sans-serif;
     background: #ffffff;
     border-radius: 8px;
     display: flex;
@@ -308,7 +298,6 @@ export const FooterContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     text-align: left;
-    font-family: "Cabinet Grotesk", sans-serif;
   }
 
   .bottom-right {
@@ -359,7 +348,6 @@ export const FooterContainer = styled.div`
   }
 
   .rect-text {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36.4729px;
@@ -370,7 +358,6 @@ export const FooterContainer = styled.div`
   }
 
   .rect-btn {
-    font-family: "Cabinet Grotesk", sans-serif;
     background: #ffffff;
     border-radius: 8px;
     display: flex;

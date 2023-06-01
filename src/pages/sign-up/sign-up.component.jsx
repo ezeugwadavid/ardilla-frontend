@@ -8,8 +8,7 @@ const SignUp = () => {
   return (
     <SignUpContainer>
         <SignUpHero />
-        <SignUpFooter />
-        
+        <SignUpFooter /> 
     </SignUpContainer>
   );
 };

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { FooterContainer } from "./footer.styles";
 import HalfMobile from "../../assets/half-mobile.svg";
 import Facebook from "../../assets/facebook-logo.svg";

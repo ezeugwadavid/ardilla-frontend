@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { InvestmentContainer } from "./investment.styles";
 import ArrowIcon from "../../assets/arrow.svg";
 import ArrowBlueIcon from "../../assets/Arrow-blue.svg";
-import FlyIcon from "../../assets/fly-icon.svg";
 import ButtonIcon from "../button-icon/button-icon.component";
 
 const Investment = () => {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { SectionInterestContainer } from "./section-interest.styles";
 import Button from "../button/button.component";
 import InterestImage from "../../assets/interest-image.svg";

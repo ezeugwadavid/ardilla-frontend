@@ -13,7 +13,6 @@ export const TractionContainer = styled.div`
   }
 
   .traction-heading {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 80px;
@@ -22,7 +21,6 @@ export const TractionContainer = styled.div`
   }
 
   .traction-text {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -58,7 +56,6 @@ export const TractionContainer = styled.div`
 
   .card-text {
     margin: auto 0px;
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -74,11 +71,9 @@ export const TractionContainer = styled.div`
     background: #33593d;
     border-radius: 2px;
     color: #ffffff;
-    font-family: "Cabinet Grotesk", sans-serif;
   }
 
   .card-digit {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 80.9524px;
@@ -99,7 +94,6 @@ export const TractionContainer = styled.div`
     background: #35298a;
     border-radius: 2px;
     color: #ffffff;
-    font-family: "Cabinet Grotesk", sans-serif;
   }
 
   .card-container3 {
@@ -115,7 +109,6 @@ export const TractionContainer = styled.div`
     background: #9f9704;
     border-radius: 2px;
     color: #ffffff;
-    font-family: "Cabinet Grotesk", sans-serif;
   }
 
   @media screen and (max-width: 800px) {

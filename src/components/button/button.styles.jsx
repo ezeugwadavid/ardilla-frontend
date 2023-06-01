@@ -7,7 +7,6 @@ align-items: flex-start;
 padding: 18px 48px;
 gap: 10px;
 border-radius: 100px;
-font-family: "Cabinet Grotesk", sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;

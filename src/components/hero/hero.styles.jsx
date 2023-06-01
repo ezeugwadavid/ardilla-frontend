@@ -8,7 +8,6 @@ export const HeroContainer = styled.div`
   align-items: center;
 
   .hero-text {
-    font-family: "Cabinet Grotesk", sans-serif;
     padding-top: 100px;
     font-style: normal;
     font-weight: 800;
@@ -27,7 +26,6 @@ export const HeroContainer = styled.div`
   }
 
   .desc {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;

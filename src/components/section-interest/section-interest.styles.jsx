@@ -12,7 +12,6 @@ export const SectionInterestContainer = styled.div`
   }
 
   .interest-hero1 {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 80px;
@@ -20,7 +19,6 @@ export const SectionInterestContainer = styled.div`
   }
 
   .interest-hero2 {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 80px;
@@ -28,7 +26,6 @@ export const SectionInterestContainer = styled.div`
   }
 
   .interest-text {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -65,7 +62,7 @@ export const SectionInterestContainer = styled.div`
     }
 
     .interest-hero1 {
-      font-family: "Cabinet Grotesk", sans-serif;
+
       font-style: normal;
       font-weight: 800;
       font-size: 50px;
@@ -73,7 +70,7 @@ export const SectionInterestContainer = styled.div`
     }
 
     .interest-hero2 {
-      font-family: "Cabinet Grotesk", sans-serif;
+
       font-style: normal;
       font-weight: 800;
       font-size: 50px;

@@ -7,11 +7,7 @@ export const TestimonialsContainer = styled.div`
   height: 952px;
   background: #f3f4f6;
 
-  .testm-content {
-  }
-
   .testm-header {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 80px;
@@ -25,7 +21,6 @@ export const TestimonialsContainer = styled.div`
   }
 
   .testm-text {
-    font-family: "Cabinet Grotesk", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -60,7 +55,7 @@ export const TestimonialsContainer = styled.div`
     padding: 30% 2%;
 
     .testm-header {
-      font-family: "Cabinet Grotesk", sans-serif;
+
       font-style: normal;
       font-weight: 800;
       font-size: 50px;
