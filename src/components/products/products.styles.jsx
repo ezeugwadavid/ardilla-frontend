@@ -87,6 +87,19 @@ export const ProductsContainer = styled.div`
     margin: 79px 0px;
   }
 
+  .progress-bar{
+    width: 95%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 79px 0px;
+    color: '#F3F4F6';
+    background-color: "#8807F7";
+    height: 8px;
+    border-radius: 16px;
+    transition: 0.3s;
+  }
+
   .progress-bottom {
     display: flex;
     justify-content: start;

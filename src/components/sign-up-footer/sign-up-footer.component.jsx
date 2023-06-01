@@ -48,13 +48,13 @@ const SignUpFooter = () => {
           src: SanId,
         },
       ];
-
-
       const [width, setWidth] = useState(4);
 
       useEffect(() => {
         function handleResize() {
-          setWidth(window.innerWidth > 1120 ? 4 : 1);
+          setWidth(
+          window.innerWidth > 1120 ? 4 : 1
+          );
         }
         // Add event listener
         window.addEventListener("resize", handleResize);

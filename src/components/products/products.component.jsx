@@ -6,7 +6,7 @@ import Invest from "../../assets/invest.svg";
 import Learn from "../../assets/learn.svg";
 import Insurance from "../../assets/insurance.svg";
 import Budget from "../../assets/budget.svg";
-import Progress from "../../assets/progress.svg";
+import LinearProgress from '@mui/material/LinearProgress';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -82,41 +82,6 @@ const Products = (props) => {
         },
       ],
     },
-    {
-      id: 2,
-      type: "Learn",
-      imageSrc: Learn,
-      phrase: "Financial freedom begins with You and Ardilla",
-      productText:
-        "Ardila offers wealth-building tips from great financial minds to help you get to where you need to be.",
-      productPoints: [
-        {
-          id: 1,
-          point: "Learn to invest in 2hrs",
-        },
-        {
-          id: 2,
-          point: "Get a portfolio manager",
-        },
-        {
-          id: 3,
-          point: "Stay on top of your finances",
-        },
-        {
-          id: 4,
-          point: "Learn with family and friends",
-        },
-        {
-          id: 5,
-          point: "Earn points and reward",
-        },
-        {
-          id: 6,
-          point: "Referral benefits",
-        },
-      ],
-    },
-
     {
       id: 3,
       type: "Invest",
@@ -220,6 +185,10 @@ const Products = (props) => {
     },
   ];
 
+const min = 1;
+const max = 5;
+const normalise = (value) => ((value - min) * 100) / (max - min);
+
   return (
     <ProductsContainer>
       <div className="headline">
@@ -248,7 +217,16 @@ const Products = (props) => {
                 </div>
               </div>
               <div className="progress-bottom">
-                <img className="progress" src={Progress} alt="" />
+                <LinearProgress
+                  sx={{
+                    "& .MuiLinearProgress-bar1Determinate": {
+                      backgroundColor: "#8807F7"
+                    },
+                  }}
+                  className="progress-bar"
+                  variant="determinate"
+                  value={normalise(product.id)}
+                />
               </div>
             </div>
           </SwiperSlide>
