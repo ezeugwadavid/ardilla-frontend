@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { AccessMoreContainer } from "./access-more.styles";
 import DibIcon from "../../assets/dib.svg";
 import DreamsIcon from "../../assets/dreams.svg";
