@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { SignUpFooterContainer } from "./sign-up-footer.styles";
 import RightArrow from "../../assets/scroll-right.svg";
 import InvestmentCard from "../../assets/investment-card.svg";
@@ -50,6 +50,19 @@ const SignUpFooter = () => {
       ];
 
 
+      const [width, setWidth] = useState(4);
+
+      useEffect(() => {
+        function handleResize() {
+          setWidth(window.innerWidth > 1120 ? 4 : 1);
+        }
+        // Add event listener
+        window.addEventListener("resize", handleResize);
+        // Call handler right away so state gets updated
+        handleResize();
+        // Remove event listener on cleanup
+        return () => window.removeEventListener("resize", handleResize);
+      }, []);
 
   return (
     <SignUpFooterContainer>
@@ -58,7 +71,7 @@ const SignUpFooter = () => {
            
             <img className="right-arr"  src={RightArrow} alt="" />
             <div className="footer-cards">
-            <Swiper slidesPerView={4} spaceBetween={0}>
+            <Swiper slidesPerView={width} spaceBetween={0}>
                 {slideCards.map((card) => {
               return (
                 <SwiperSlide index={card.id}>

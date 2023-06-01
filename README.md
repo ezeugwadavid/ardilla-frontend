@@ -23,7 +23,7 @@ Below are the features of Ardilla at this point
 https://github.com/ezeugwadavid/ardilla-frontend.git
 ```
 
-2. Move to root folder and Install dependencies by running:
+2. Move to root folder and Install dependencies and run:
 ```
 npm install
 ```

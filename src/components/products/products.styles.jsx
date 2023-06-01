@@ -143,6 +143,15 @@ export const ProductsContainer = styled.div`
     .header {
     font-size: 50px;
   }
+
+  .small-mobile {
+      margin-top: 30px;
+      margin-right: 20px;
+      width: 200px;
+      height: 200px;
+      display: flex;
+      justify-content: start;
+    }
   };
 
   @media screen and (min-width: 450px) and (max-width: 800px)  {

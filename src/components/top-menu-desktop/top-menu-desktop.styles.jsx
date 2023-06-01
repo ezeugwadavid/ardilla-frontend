@@ -44,21 +44,21 @@ export const TopMenuDesktopContainer = styled.div`
     margin-right: 10%;
   }
 
-  .beta{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 3.08696px;
-gap: 6.09px;
-border: 1px solid #FFFFFF;
-border-radius: 3px;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-width: 32.87px;
-height: 14px;
+  .beta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3.08696px;
+    gap: 6.09px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    width: 32.87px;
+    height: 14px;
   }
 
   .highlight-item {
@@ -89,7 +89,7 @@ height: 14px;
     font-size: 14px;
     line-height: 12px;
   }
-  
+
   .right-icons {
     display: flex;
   }

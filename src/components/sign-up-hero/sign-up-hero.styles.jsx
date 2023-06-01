@@ -5,14 +5,107 @@ export const SignUpHeroContainer = styled.div`
   font-family: "Clash Display", sans-serif;
   background: #8807f7;
 
-  .modal-content{
-    color: #ffffff;
-    font-size: 100px;
-    width: 500px;
-    height: 500px;
-    background: #ffffff;
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* 4Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
   }
- 
+
+  .show-modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 3; /* Sit on top */
+    left: 0%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .modal-cover {
+    /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background: #ffffff;
+    padding: 5%;
+    width: 85%; /* Could be more or less, depending on screen size */
+    margin: auto auto;
+  }
+
+  .top-modal {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .modal-exit {
+    margin-left: 10px;
+  }
+
+  .center-icon {
+    display: flex;
+    justify-content: center;
+    /* margin: 5% auto; */
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .response {
+    display: flex;
+    justify-content: center;
+  }
+  .response-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    margin-left: 20px;
+    color: #22c55e;
+    text-align: center;
+  }
+
+  .hurray {
+    margin-bottom: 20px;
+  }
+
+  .modal-text {
+    display: flex;
+    justify-content: center;
+    margin: 5% auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #9ca3af;
+    width: 30%;
+  }
+
+  .bottom-icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .green {
+    margin-right: 15px;
+  }
+
   .top {
     display: flex;
     justify-content: space-between;
@@ -22,6 +115,7 @@ export const SignUpHeroContainer = styled.div`
   }
 
   .right-sign {
+    display: block;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -30,6 +124,13 @@ export const SignUpHeroContainer = styled.div`
     margin-top: 20px;
     margin-right: 10%;
   }
+
+  .right-sign-icon {
+    display: none;
+    margin-top: 20px;
+    margin-right: 10%;
+  }
+
   .left-sign {
     margin-top: 20px;
     margin-left: 10%;
@@ -104,7 +205,7 @@ export const SignUpHeroContainer = styled.div`
     font-style: normal;
     font-weight: 400;
     line-height: 17px;
-    color: #9CA3AF;
+    color: #9ca3af;
   }
 
   input[type="text"]:focus {
@@ -137,5 +238,78 @@ export const SignUpHeroContainer = styled.div`
   }
 
   @media screen and (max-width: 800px) {
+    .right-sign {
+      display: none;
+    }
+
+    .input-field {
+      width: 98%;
+      height: 40px;
+    }
+
+    .input-btn {
+    width: 60%;
+    padding: 10px;
+    height: 40px;
+    background: #8807f7;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #ffffff;
+    position: relative;
+    right: 200px;
+    top: 3px;
+  }
+
+    .hero-content {
+    margin-bottom: 20px;
+  }
+
+    .right-sign-icon {
+      display: block;
+      margin-top: 20px;
+      margin-right: 5%;
+    }
+
+    .input-btn {
+      position: relative;
+      top: 20px;
+      left: 2%;
+      
+    }
+
+    .input {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 100px;
+      margin-right: 20px;
+    }
+
+    .right-mobile {
+      width: 150px;
+      height: 300px;
+      position: absolute;
+      right: -0%;
+      top: 950px;
+      z-index: 1;
+    }
+  }
+
+  @media screen and (max-width: 430px) {
+    .bold {
+      font-size: 70px;
+    }
+
+    .modal-text {
+      width: 90%;
+    }
+
+    .right-mobile {
+      display: none;
+    }
   }
 `;

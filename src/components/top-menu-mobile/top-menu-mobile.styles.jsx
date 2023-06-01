@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const TopMenuMobileContainer = styled.div`
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
     .top-nav {
       position: fixed;
       background: #240053;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { HeroContainer } from "./hero.styles";
 import Phone from "../../assets/phone.svg";
 import Button from "../button/button.component";
@@ -12,7 +12,7 @@ const Hero = () => {
         Ardilla helps you save and invest in achieving your financial goals, we
         have the most flexible and seamless way to grow your funds.
       </div>
-      <Button className="hero-btn">Get Started</Button>
+      <Button className="hero-btn" handleClick={() => window.location.href = '/signup'}>Get Started</Button>
       <img className="phone" src={Phone} alt="" />
     </HeroContainer>
   );

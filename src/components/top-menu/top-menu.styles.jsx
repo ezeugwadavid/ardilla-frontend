@@ -7,7 +7,7 @@ export const TopMenuContainer = styled.div`
     .mobile{
       display: none;
     }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
     .desktop{
       display: none;
     }

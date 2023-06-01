@@ -80,13 +80,68 @@ export const SignUpFooterContainer = styled.div`
   @media screen and (max-width: 1220px) {
     .footer-container {
       margin: 0px auto;
-      width: 98%;
+      width: 100%;
       padding: 0%;
     }
 
     .cards {
-      width: 110.35px;
-      height: 150.95px;
+      width: 100%;
+      height: 195.95px;
+    }
+
+    .right-arr {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .footer-container {
+      margin: 0px auto;
+      width: 100%;
+      padding: 0%;
+    }
+
+    .footer-cards {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10%;
+      margin-bottom: 3%;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .ellipse-background {
+      width: 78%;
+      height: 50px;
+    }
+
+    .sign-up-footer {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      margin-top: 10%;
+      padding: 2%;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+  }
+
+  @media screen and (min-width: 426px) and (max-width: 800px) {
+
+    .ellipse-background {
+      width: 330px;
+      height: 50px;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+
+    .ellipse-background {
+      width: 75%;
+      height: 50px;
+      font-size: 18px;
     }
   }
 `;
