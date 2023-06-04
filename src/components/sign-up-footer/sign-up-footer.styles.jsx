@@ -117,14 +117,16 @@ export const SignUpFooterContainer = styled.div`
 
     .sign-up-footer {
       display: flex;
-      justify-content: space-between;
+      justify-content: start;
       flex-direction: column;
       margin-top: 10%;
-      padding: 2%;
+      padding: 4%;
+      text-align: start;
     }
-  }
 
-  @media screen and (max-width: 360px) {
+    .right-social-icons{
+      margin-top: 20px;
+    }
   }
 
   @media screen and (min-width: 426px) and (max-width: 800px) {

@@ -13,6 +13,7 @@ import FacebookEllipse from "../../assets/facebook-ellipse.svg";
 import InstagramEllipse from "../../assets/instagram-ellipse.svg";
 import TwitterEllipse from "../../assets/twitter-ellipse.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -66,35 +67,43 @@ const SignUpFooter = () => {
 
   return (
     <SignUpFooterContainer>
-        <div className="footer-container">
-            <div className="ellipse-background">What you can expect</div>
-           
-            <img className="right-arr"  src={RightArrow} alt="" />
-            <div className="footer-cards">
-            <Swiper slidesPerView={width} spaceBetween={0}>
-                {slideCards.map((card) => {
+      <div className="footer-container">
+        <div className="ellipse-background">What you can expect</div>
+
+        <img className="right-arr" src={RightArrow} alt="" />
+        <div className="footer-cards">
+          <Swiper
+            slidesPerView={width}
+            spaceBetween={0}
+            autoplay={{
+              delay: 2000,
+              disableOnInteraction: false,
+            }}
+            className="mySwiper"
+            centeredSlides={true}
+            modules={[Autoplay]}
+          >
+            {slideCards.map((card) => {
               return (
                 <SwiperSlide index={card.id}>
-                 <img className="cards" src={card.src} alt="" />
+                  <img className="cards" src={card.src} alt="" />
                 </SwiperSlide>
               );
             })}
-                </Swiper>
-            </div>
-            <div className="progress">
-                <img className="progress-status" src={ProgressSmall} alt="" />
-            </div>
-
-           
+          </Swiper>
         </div>
-        <div className="sign-up-footer">
-                <div className="left-details"> © 2023 Ardilla. All right reserved</div>
-                <div className="right-social-icons">
-                    <img className="social-ic" src={FacebookEllipse} alt="" />
-                    <img className="social-ic" src={InstagramEllipse} alt="" />
-                    <img className="social-ic" src={TwitterEllipse} alt="" />
-                </div>
-            </div>
+        <div className="progress">
+          <img className="progress-status" src={ProgressSmall} alt="" />
+        </div>
+      </div>
+      <div className="sign-up-footer">
+        <div className="left-details"> © 2023 Ardilla. All right reserved</div>
+        <div className="right-social-icons">
+          <img className="social-ic" src={FacebookEllipse} alt="" />
+          <img className="social-ic" src={InstagramEllipse} alt="" />
+          <img className="social-ic" src={TwitterEllipse} alt="" />
+        </div>
+      </div>
     </SignUpFooterContainer>
   );
 };

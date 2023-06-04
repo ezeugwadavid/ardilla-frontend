@@ -40,6 +40,10 @@ export const HeroContainer = styled.div`
     margin-top: 40px;
   }
 
+  .nav-link{
+    text-decoration: none;
+  }
+
   .phone {
     margin-top: 70px;
   }

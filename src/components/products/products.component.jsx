@@ -6,8 +6,9 @@ import Invest from "../../assets/invest.svg";
 import Learn from "../../assets/learn.svg";
 import Insurance from "../../assets/insurance.svg";
 import Budget from "../../assets/budget.svg";
-import LinearProgress from '@mui/material/LinearProgress';
+import LinearProgress from "@mui/material/LinearProgress";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -185,16 +186,26 @@ const Products = (props) => {
     },
   ];
 
-const min = 1;
-const max = 5;
-const normalise = (value) => ((value - min) * 100) / (max - min);
+  const min = 1;
+  const max = 5;
+  const normalise = (value) => ((value - min) * 100) / (max - min);
 
   return (
     <ProductsContainer>
       <div className="headline">
         <div className="header">Products</div>
       </div>
-      <Swiper slidesPerView={1} spaceBetween={0}>
+      <Swiper
+        slidesPerView={1}
+        spaceBetween={0}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
+        className="mySwiper"
+        centeredSlides={true}
+        modules={[Autoplay]}
+      >
         {productsData.map((product) => (
           <SwiperSlide index={product.id}>
             <div>

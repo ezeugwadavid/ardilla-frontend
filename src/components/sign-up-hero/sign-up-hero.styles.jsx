@@ -34,7 +34,7 @@ export const SignUpHeroContainer = styled.div`
   .modal-content {
     background: #ffffff;
     padding: 5%;
-    width: 85%; /* Could be more or less, depending on screen size */
+    width: 90%; /* Could be more or less, depending on screen size */
     margin: auto auto;
   }
 
@@ -67,7 +67,7 @@ export const SignUpHeroContainer = styled.div`
     font-weight: 600;
     font-size: 25px;
     line-height: 31px;
-    margin-left: 20px;
+    margin-left: 0px;
     color: #22c55e;
     text-align: center;
   }
@@ -104,6 +104,10 @@ export const SignUpHeroContainer = styled.div`
     align-items: center;
     color: #ffffff;
     background-image: url(${BackDepth});
+  }
+
+  .n-link {
+    text-decoration: none;
   }
 
   .dot {
@@ -248,6 +252,7 @@ export const SignUpHeroContainer = styled.div`
     .input-field {
       width: 100%;
       height: 40px;
+      font-size: 10px;
     }
 
     .input-text {
@@ -298,11 +303,11 @@ export const SignUpHeroContainer = styled.div`
     }
 
     .right-mobile {
-      width: 150px;
+      width: 140px;
       height: 300px;
       position: absolute;
       right: -0%;
-      top: 950px;
+      top: 750px;
       z-index: 1;
     }
   }
@@ -322,7 +327,32 @@ export const SignUpHeroContainer = styled.div`
     }
 
     .right-mobile {
-      display: none;
+      width: 67px;
+      height: 150px;
+      position: absolute;
+      right: -0%;
+      top: 700px;
+      z-index: 1;
+    }
+
+    .input-field {
+      font-size: 8px;
+      height: 30px;
+    }
+
+    input::placeholder {
+      font-size: 8px;
+    }
+
+    .input-btn {
+      width: 30%;
+      height: 10px;
+      position: relative;
+      right: 29%;
+    }
+
+    .input-text {
+      font-size: 8px;
     }
   }
 
@@ -331,14 +361,22 @@ export const SignUpHeroContainer = styled.div`
       font-size: 8px;
     }
   }
-  @media screen and (max-width: 420px) {
-    input::placeholder {
-      font-size: 5px;
-    }
-  }
+
   @media screen and (max-width: 300px) {
     input::placeholder {
-      font-size: 4px;
+      font-size: 7px;
+    }
+
+    .input-btn {
+      width: 30%;
+      height: 10px;
+      position: relative;
+      right: 32%;
+    }
+
+    .input-field {
+      font-size: 7px;
+      padding: 7px;
     }
   }
 `;

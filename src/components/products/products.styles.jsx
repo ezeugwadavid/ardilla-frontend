@@ -82,17 +82,23 @@ export const ProductsContainer = styled.div`
     margin: 79px 0px;
   }
 
-  .progress-bar{
+  .progress-bar {
     width: 95%;
     height: 30px;
     display: flex;
     justify-content: center;
     margin: 79px 0px;
-    color: '#F3F4F6';
+    color: "#F3F4F6";
     background-color: "#8807F7";
     height: 8px;
     border-radius: 16px;
     transition: 0.3s;
+  }
+
+  .slide {
+    width: 95%;
+    height: 30px;
+    background-color: "#8807F7";
   }
 
   .progress-bottom {
@@ -136,7 +142,6 @@ export const ProductsContainer = styled.div`
     }
 
     .product-text {
-
       font-style: normal;
       font-weight: 700;
       font-size: 15px;
@@ -149,10 +154,10 @@ export const ProductsContainer = styled.div`
 
   @media screen and (max-width: 330px) {
     .header {
-    font-size: 50px;
-  }
+      font-size: 50px;
+    }
 
-  .small-mobile {
+    .small-mobile {
       margin-top: 30px;
       margin-right: 20px;
       width: 200px;
@@ -160,16 +165,16 @@ export const ProductsContainer = styled.div`
       display: flex;
       justify-content: start;
     }
-  };
+  }
 
-  @media screen and (min-width: 450px) and (max-width: 800px)  {
+  @media screen and (min-width: 450px) and (max-width: 800px) {
     .small-mobile {
       width: 97%;
       height: 90%;
     }
-  };
+  }
 
-  @media screen and (min-width: 801px) and (max-width: 1109px)  {
+  @media screen and (min-width: 801px) and (max-width: 1109px) {
     .product-text {
       font-size: 15px;
       line-height: 30px;
@@ -178,8 +183,4 @@ export const ProductsContainer = styled.div`
       width: 95%;
     }
   }
-
-
-
-
 `;

@@ -11,6 +11,7 @@ import IgGreen from "../../assets/ig-green.svg";
 import HurrayIcon from "../../assets/hurray.svg";
 import MarkIcon from "../../assets/mark-icon.svg";
 import TwitterGreen from "../../assets/twitter-green.svg";
+import { NavLink } from "react-router-dom";
 
 const SignUpHero = () => {
   const [modal, setModal] = useState(false);
@@ -57,13 +58,12 @@ const SignUpHero = () => {
       {/* modal */}
       <div className={modal ? "show-modal" : "modal"}>
         <div class="modal-content">
-          <div
-            className="top-modal"
-            onClick={() => (window.location.href = "/")}
-          >
-            <img src={ArrowBack} alt="" />
-            <div className="modal-exit">Go back</div>
-          </div>
+          <NavLink className="n-link" to="/">
+            <div className="top-modal">
+              <img src={ArrowBack} alt="" />
+              <div className="modal-exit">Go back</div>
+            </div>
+          </NavLink>
 
           <div className="center-icon">
             <img src={MarkIcon} alt="" />
