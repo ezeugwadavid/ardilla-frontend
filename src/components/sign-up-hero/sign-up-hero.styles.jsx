@@ -210,6 +210,11 @@ export const SignUpHeroContainer = styled.div`
     border: 1px solid #ffffff;
   }
 
+  input::placeholder {
+    color: #9ca3af;
+    font-size: 14px;
+  }
+
   .input-btn {
     width: 176px;
     padding: 10px;
@@ -241,14 +246,26 @@ export const SignUpHeroContainer = styled.div`
     }
 
     .input-field {
-      width: 98%;
+      width: 100%;
       height: 40px;
     }
 
+    .input-text {
+      font-size: 12px;
+    }
+
+    input::placeholder {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      color: #9ca3af;
+    }
+
     .input-btn {
-      width: 60%;
+      width: 50%;
       padding: 10px;
-      height: 40px;
+      height: 20px;
       background: #8807f7;
       border-radius: 100px;
       display: flex;
@@ -257,8 +274,8 @@ export const SignUpHeroContainer = styled.div`
       cursor: pointer;
       color: #ffffff;
       position: relative;
-      right: 200px;
-      top: 3px;
+      right: 37%;
+      top: 0px;
     }
 
     .hero-content {
@@ -270,20 +287,14 @@ export const SignUpHeroContainer = styled.div`
       margin-top: 20px;
       margin-right: 5%;
     }
-
-    .input-btn {
-      position: relative;
-      top: 20px;
-      left: 2%;
-    }
-
     .input {
       display: flex;
       justify-content: center;
+      margin-left: 15%;
       align-items: center;
-      flex-direction: column;
+      position: relative;
+      left: 1%;
       margin-bottom: 100px;
-      margin-right: 20px;
     }
 
     .right-mobile {
@@ -305,8 +316,29 @@ export const SignUpHeroContainer = styled.div`
       width: 90%;
     }
 
+    .hero-content {
+      margin-bottom: 20px;
+      width: 90%;
+    }
+
     .right-mobile {
       display: none;
+    }
+  }
+
+  @media screen and (max-width: 610px) {
+    input::placeholder {
+      font-size: 8px;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    input::placeholder {
+      font-size: 5px;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    input::placeholder {
+      font-size: 4px;
     }
   }
 `;
