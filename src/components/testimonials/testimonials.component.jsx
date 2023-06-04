@@ -5,6 +5,7 @@ import ManImage from "../../assets/man-photo.svg";
 import WomanImage from "../../assets/woman-photo.svg";
 import WomanVideo from "../../assets/woman-video.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -46,7 +47,16 @@ const Testimonials = () => {
           Listen to testimonials from Ardilla users building wealth
         </div>
         <div className="photo-container">
-          <Swiper slidesPerView={3} spaceBetween={0}>
+          <Swiper
+            slidesPerView={3}
+            spaceBetween={0}
+            autoplay={{
+              delay: 2000,
+              disableOnInteraction: false,
+            }}
+            className="mySwiper"
+            modules={[Autoplay]}
+          >
             {images.map((image) => {
               return (
                 <SwiperSlide index={image.id}>

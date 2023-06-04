@@ -80,7 +80,6 @@ const SignUpFooter = () => {
               disableOnInteraction: false,
             }}
             className="mySwiper"
-            centeredSlides={true}
             modules={[Autoplay]}
           >
             {slideCards.map((card) => {
