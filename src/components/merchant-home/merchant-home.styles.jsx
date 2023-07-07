@@ -161,7 +161,7 @@ export const MerchantHomeContainer = styled.div`
     background: #fafafa;
     border-radius: 10px;
     margin-top: 20px;
-    width: 100%;
+    width: 94%;
     border: 1px solid #328A28;
     cursor: pointer;
   }
@@ -174,7 +174,7 @@ export const MerchantHomeContainer = styled.div`
   }
 
   .select-content{
-    padding: 2%;
+    padding: 3%;
   }
   }
 `;
