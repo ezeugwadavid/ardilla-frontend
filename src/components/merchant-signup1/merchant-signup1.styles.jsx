@@ -106,7 +106,7 @@ export const MerchantSignup1Container = styled.div`
 
   
   .form-section {
-    padding: 2%;
+    padding: 3%;
   }
 
   .form-header {
@@ -115,6 +115,14 @@ export const MerchantSignup1Container = styled.div`
     width: 80%;
     margin-top: 30px;
     text-align: left;
+  }
+
+  .f-input {
+    padding: 20px;
+    width: 88%;
+    text-align: left;
+    border: 1px solid #f3f3f3;
+    outline: none;
   }
 
   .btm-auth{

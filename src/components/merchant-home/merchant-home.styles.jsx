@@ -157,7 +157,7 @@ export const MerchantHomeContainer = styled.div`
   }
 
   .merchant-box:hover {
-    padding: 5%;
+    padding: 3%;
     background: #fafafa;
     border-radius: 10px;
     margin-top: 20px;
