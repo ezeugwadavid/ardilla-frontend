@@ -141,6 +141,8 @@ export const MerchantHomeContainer = styled.div`
     .merchant-right {
     width: 100%;
     margin: auto 0px;
+    position: relative;
+    left: 5%;
   }
 
   .merchant-box {
@@ -149,6 +151,16 @@ export const MerchantHomeContainer = styled.div`
     border-radius: 10px;
     margin-top: 20px;
     width: 100%;
+    cursor: pointer;
+  }
+
+  .merchant-box:hover {
+    padding: 5%;
+    background: #fafafa;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid #328A28;
     cursor: pointer;
   }
 
