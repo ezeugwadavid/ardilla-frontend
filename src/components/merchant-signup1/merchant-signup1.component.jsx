@@ -27,7 +27,7 @@ const MerchantSignUp1 = () => {
       setCharacter(false);
     }
 
-    const specialChars = /[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
+    const specialChars = /[`!@#$%^&*()_+\-=\]{};':"\\|,.<>?~]/;
     if (/\d/.test(password) || specialChars.test(password)) {
       setSymbolNum(false);
     }
