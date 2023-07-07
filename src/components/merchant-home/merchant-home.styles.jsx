@@ -9,7 +9,7 @@ export const MerchantHomeContainer = styled.div`
   }
 
   .merchant-right {
-    width: 70%;
+    width: 67%;
     margin: auto 0px;
     position: relative;
     left: 30%;
@@ -22,8 +22,10 @@ export const MerchantHomeContainer = styled.div`
   .merchant-left {
     position: fixed;
     height: 100%;
-    width: 30%;
+    width: 33%;
     padding: 0px;
+    display: flex;
+    justify-content: start;
   }
 
   .h-logo {
@@ -142,15 +144,15 @@ export const MerchantHomeContainer = styled.div`
     width: 100%;
     margin: auto 0px;
     position: relative;
-    left: 5%;
+    left: 0%;
   }
 
   .merchant-box {
-    padding: 5%;
+    padding: 3%;
     background: #fafafa;
     border-radius: 10px;
     margin-top: 20px;
-    width: 100%;
+    width: 94%;
     cursor: pointer;
   }
 
@@ -165,13 +167,14 @@ export const MerchantHomeContainer = styled.div`
   }
 
   .center-content {
+    width: 100%;
     margin-right: 10px;
     margin-top: auto;
     margin-bottom: auto;
   }
 
   .select-content{
-    padding: 0%;
+    padding: 2%;
   }
   }
 `;
