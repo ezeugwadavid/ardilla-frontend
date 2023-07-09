@@ -5,6 +5,8 @@ import HargonLogo from "../../assets/hargon-logo.svg";
 import SymbolCancel from "../../assets/symbol-cancel.svg";
 import TickCircle from "../../assets/tick-circle.svg";
 import CircleOutline from "../../assets/circle-outline.svg";
+import DownArrow from "../../assets/arrow-down-h.svg";
+import Eye from "../../assets/eye.svg";
 
 const MerchantSignUp1 = () => {
   const defaultField = {
@@ -22,6 +24,9 @@ const MerchantSignUp1 = () => {
   };
 
   const handleClick = () => {
+    setCharacter(true);
+    setSymbolNum(true);
+    setUppercase(true);
     const password = credentials.password.trim();
     if (password.length >= 8) {
       setCharacter(false);
@@ -69,12 +74,15 @@ const MerchantSignUp1 = () => {
               type="text"
             />
           </div>
-          <div className="form-input">
+          <div className="form-input with-icon">
             <input
               className="f-input"
               placeholder="Business Industry"
               type="text"
             />
+            <div className="arrow-down">
+              <img className="input-icon-down" src={DownArrow} alt="" />
+            </div>
           </div>
           <div className="form-input">
             <input
@@ -98,32 +106,39 @@ const MerchantSignUp1 = () => {
               type="password"
               onChange={(e) => handleChange(e)}
             />
-            <div className="btm-auth">
-              <div className={character ? "green" : "hide-text"}>
-                <img src={TickCircle} alt="" />
-                <div className="green-text">
-                  Password must be 8 characters or longer
-                </div>
+            <div className="eye">
+              <img className="input-icon-eye" src={Eye} alt="" />
+            </div>
+          </div>
+          <div className="btm-auth">
+            <div className={character ? "green" : "hide-text"}>
+              <img src={TickCircle} alt="" />
+              <div className="green-text">
+                Password must be 8 characters or longer
               </div>
+            </div>
 
-              <div className={symbolNum ? "gray" : "hide-text"}>
-                <img src={CircleOutline} alt="" />
-                <div className="gray-text">
-                  Password must include one number or symbol
-                </div>
+            <div className={symbolNum ? "gray" : "hide-text"}>
+              <img src={CircleOutline} alt="" />
+              <div className="gray-text">
+                Password must include one number or symbol
               </div>
+            </div>
 
-              <div className={uppercase ? "red" : "hide-text"}>
-                <img src={SymbolCancel} alt="" />
-                <div className="red-text">
-                  Password must include at least one Uppercase
-                </div>
+            <div className={uppercase ? "red" : "hide-text"}>
+              <img src={SymbolCancel} alt="" />
+              <div className="red-text">
+                Password must include at least one Uppercase
               </div>
             </div>
           </div>
 
           <div className="signup-btn" onClick={() => handleClick()}>
             Sign Up
+          </div>
+          <div className="merchant-btm">
+            <div className="btm-dark">Already have an account?</div>
+            <div className="btm-green">Sign In</div>
           </div>
         </div>
       </div>
