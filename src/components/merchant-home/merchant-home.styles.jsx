@@ -50,7 +50,6 @@ export const MerchantHomeContainer = styled.div`
     text-align: left;
     margin-top: 10px;
     color: #999999;
-    /* text-shadow: 4px 4px 2px rgba(0,0,0,0.2); */
   }
 
   .merchant-box-content {
@@ -147,6 +146,10 @@ export const MerchantHomeContainer = styled.div`
     left: 0%;
   }
 
+  .right-b-arrow {
+    margin-left: 10%;
+  }
+
   .merchant-box {
     padding: 3%;
     background: #fafafa;
@@ -171,6 +174,10 @@ export const MerchantHomeContainer = styled.div`
     margin-right: 10px;
     margin-top: auto;
     margin-bottom: auto;
+  }
+
+  .soon-btn{
+    margin-left: 10%;
   }
 
   .select-content{
