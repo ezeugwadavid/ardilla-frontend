@@ -58,7 +58,7 @@ const SignUpHero = () => {
       {/* modal */}
       <div className={modal ? "show-modal" : "modal"}>
         <div class="modal-content">
-          <NavLink className="n-link" to="/">
+          <NavLink className="n-link" to="/landing">
             <div className="top-modal">
               <img src={ArrowBack} alt="" />
               <div className="modal-exit">Go back</div>

@@ -13,7 +13,7 @@ const Hero = () => {
         Ardilla helps you save and invest in achieving your financial goals, we
         have the most flexible and seamless way to grow your funds.
       </div>
-      <NavLink className="nav-link"  to="/signup"><Button className="hero-btn">Get Started</Button></NavLink> 
+      <NavLink className="nav-link"  to="/sign-up"><Button className="hero-btn">Get Started</Button></NavLink> 
       <img className="phone" src={Phone} alt="" />
     </HeroContainer>
   );

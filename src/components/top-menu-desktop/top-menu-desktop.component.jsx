@@ -83,7 +83,7 @@ const TopMenuDesktop = () => {
           color="#ffffff"
           bgHoverColor="#6005AE"
           hoverColor="#ffffff"
-          handleClick={() => window.location.href = '/signup'}
+          handleClick={() => window.location.href = '/sign-up'}
         >
           Create Account
         </Button>
